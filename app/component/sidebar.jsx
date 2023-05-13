@@ -13,13 +13,13 @@ const Sidebar = ({ data }) => {
 					priority
 					width={300}
 					height={300}
-					className='rounded-full h-full mb-6'
-					src='/images/julian-wan-WNoLnJo7tS8-unsplash.jpg'
-					alt='julian-wan-WNoLnJo7tS8-unsplash.jpg'
-					aria-label='julian-wan-WNoLnJo7tS8-unsplash.jpg'
+					className='rounded-full h-auto-full mb-5'
+					src='/Images/pic2.jpg'
+					alt='pic2.jpg'
+					aria-label='pic2.jpg'
 				/>
-				<h1 className='mb-2'>{name}</h1>
-				<h2 className='mb-8'>{role}</h2>
+				<h1 className='mb-2 '>{name}</h1>
+				<h2 className='mb-8 hover:text-yellow bg-black'>{role}</h2>
 				<p className='mb-2'>{education[0]}</p>
 				<p className='mb-2'>{education[1]}</p>
 				<div className='text-white text-center mb-4 mt-4 sm:mt-8'>

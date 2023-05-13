@@ -1,9 +1,9 @@
 export const personalData = {
-	name: "Joe Doe",
+	name: "Hafiz M Adil",
 	role: "Software Engineer",
 	education: [
-		"Bachelor of Science in Computer Science, University of Oxford(2015-2019)",
-		"Master of Science in Artificial Intelligence, Imperial College London (2019-2021)",
+		"Bachelor of Science in Computer Science, University of Management Technolgy (2015-2019)",
+		//"Master of Science in Artificial Intelligence, Imperial College London (2019-2021)",
 	],
 	contactLinks: [
 		"mailto:emailto:time2code@gmail.com",
@@ -51,13 +51,13 @@ export const professionalData = {
 		},
 
 		{
-			role: "Machine Learning Engineer, XYZ Corp. (2019-2021)",
+			role: "Machine Learning Engineer, (2019-2021)",
 			description:
 				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
 			current: false,
 		},
 		{
-			role: "Machine Learning Engineer, ABX Corp. (2020-2021)",
+			role: "Machine Learning Engineer, (2020-2021)",
 			description:
 				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
 			current: false,
