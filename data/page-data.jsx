@@ -2,21 +2,21 @@ export const personalData = {
 	name: "Hafiz M Adil",
 	role: "Software Engineer",
 	education: [
-		"Bachelor of Science in Computer Science, University of Management Technolgy (2015-2019)",
-		//"Master of Science in Artificial Intelligence, Imperial College London (2019-2021)",
+		"Bachelor of Science in Computer Science, University of Management Technolgy (2018-2021)",
+		"Electrical Diploma, Government Technical Training Institute Lahore Pakistan,TEVTA (2016-2018)",
 	],
 	contactLinks: [
-		"mailto:emailto:time2code@gmail.com",
-		"https://twitter.com/time_tocode",
-		"https://linkedin.com/aliciarodriguezLi",
-		"https://medium.com/@time2code.ali",
+		"https://adilamin374@gmail.com",
+		"https://adilamin155@skype.com",
+		"https://adilamin785@yahoo.com",
+		//"https://  ",
 	],
 };
 
 export const aboutMe = {
 	title: "About Me",
 	body: [
-		"As a highly motivated and driven individual with a passion for making a positive impact, I have a unique blend of technical and interpersonal skills, thanks to my background in computer science. I am able to tackle complex problems with ease, and I never lose sight of my ultimate goal, even when facing challenges.",
+		"As a highly motivated and driven individual with a passion for making a positive impact, I have a unique blend of technical and interpersonal skills,my not a background in computer science. I am able to tackle complex problems with ease, and I never lose sight of my ultimate goal, even when facing challenges.",
 		"When I'm not working, I love hiking, reading, and spending time with my friends and family. I believe that my determination, can-do attitude, and hard work make me a true asset to any team.",
 	],
 };

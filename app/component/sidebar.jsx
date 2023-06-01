@@ -7,23 +7,23 @@ const Sidebar = ({ data }) => {
 	const { name, role, education, contactLinks } = data;
 
 	return (
-		<div className='bg-black flex flex-col  content-between w-full h-auto sm:h-screen sm:justify-around sm:w-1/3 sm:fixed'>
-			<div className='text-white flex flex-col p-10 items-center'>
+		<div className='bg-green-light flex flex-col content-between w-auto h-1 sm:h-screen sm:justify-around sm:w-1/3 sm:fixed'>
+			<div className='flex flex-col p-10 items-center text-font-bold'>
 				<Image
 					priority
-					width={300}
-					height={300}
-					className='rounded-full h-auto-full mb-5'
-					src='/Images/pic2.jpg'
-					alt='pic2.jpg'
-					aria-label='pic2.jpg'
+					width={250}
+					height={250}
+					className='mb-2 rounded-t-full'
+					src='/Images/pic2.png'
+					alt='pic2.png'
+					aria-label='pic2.png'
 				/>
-				<h1 className='mb-2 '>{name}</h1>
-				<h2 className='mb-8 hover:text-yellow bg-black'>{role}</h2>
+				<h1 className='mb-2'>{name}</h1>
+				<h2 className='mb-8 text-black bg-white text-center mt-4 sm:mt-8'>{role}</h2>
 				<p className='mb-2'>{education[0]}</p>
 				<p className='mb-2'>{education[1]}</p>
 				<div className='text-white text-center mb-4 mt-4 sm:mt-8'>
-					<h3 className='mb-2'> CONTACT ME</h3>
+					<h3 className='mb-2 text-black bg-white rounded-2xl'> CONTACT ME</h3>
 					<div className='flex flex-row justify-center gap-2'>
 						<a
 							className='icons-contactme'
@@ -47,7 +47,7 @@ const Sidebar = ({ data }) => {
 							<Linkedin />
 						</a>
 						<a
-							className='icons-contactme'
+							className='icons-contactme font-bold'
 							href={contactLinks?.[3]}
 							aria-label={"medium link"}
 						>
