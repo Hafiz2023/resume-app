@@ -13,13 +13,13 @@ const Sidebar = ({ data }) => {
 					priority
 					width={250}
 					height={250}
-					className='mb-2 rounded-t-full'
-					src='/Images/pic2.png'
-					alt='pic2.png'
-					aria-label='pic2.png'
+					className='mb-2 rounded'
+					src='/pic.png'
+					alt='/pic.png'
+					aria-label='pic.png'
 				/>
-				<h1 className='mb-2'>{name}</h1>
-				<h2 className='mb-8 text-black bg-white text-center mt-4 sm:mt-8'>{role}</h2>
+				<h1 className='mb-2 bg-white text-black rounded-full'>{name}</h1>
+				<h2 className='mb-8 bg-white text-black text-center mt-4 sm:mt-8 rounded-xl'>{role}</h2>
 				<p className='mb-2'>{education[0]}</p>
 				<p className='mb-2'>{education[1]}</p>
 				<div className='text-white text-center mb-4 mt-4 sm:mt-8'>
